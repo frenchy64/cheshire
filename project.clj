@@ -9,7 +9,8 @@
                  [com.fasterxml.jackson.dataformat/jackson-dataformat-smile "2.9.0"]
                  [com.fasterxml.jackson.dataformat/jackson-dataformat-cbor "2.9.0"]
                  [tigris "0.1.1"]]
-  :profiles {:dev {:dependencies [[org.clojure/clojure "1.8.0"]
+  :profiles {:dev {:dependencies [[org.clojure/clojure "1.9.0-beta2"]
+                                  [org.clojure/core.typed "0.4.2-SNAPSHOT"]
                                   [org.clojure/test.generative "0.1.4"]]}
              :1.3 {:dependencies [[org.clojure/clojure "1.3.0"]]}
              :1.4 {:dependencies [[org.clojure/clojure "1.4.0"]]}
